@@ -1,0 +1,181 @@
+body{font-size: 20px;
+	 color: #042753;
+}
+header{
+	position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(../../images/fon.jpg);
+    float: left;
+}
+h1 {color: white; 
+	font: 80px Castellar;
+	text-align: center;
+}
+h2 {text-align: center;
+	font: 20px;
+	color: #986206;
+	}
+
+h3 {color: white;
+	text-align: center}
+
+h4 {color: #986206;
+	text-align: center;
+	}
+.pic {
+	position: relative;
+	bottom: 240px;
+	left: 210px;
+}
+nav a{
+	height: 60px;  
+    width: 120px;  
+    /*color: white;*/
+    background: url(../../images/ppp.png) no-repeat;
+    background-size: 100%;
+    opacity: 0.7;  
+    font: 20pt italic;   
+    position: relative;  
+    text-decoration:none;
+    display:inline-block;
+	padding: 2px;
+	margin: 0px 5%;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+
+nav{
+	text-align: center;
+}
+ .sidebar{
+ 	color: white;
+ 	display: inline-block;
+ 	float: left;
+ 	width: 20%;
+    background-color: #0d2644;
+    /*margin-bottom: 10px; */
+    padding: 40px;
+}
+.content{
+	display: inline-block;
+	width: 70%;
+    background-color: transparent;
+    /*margin-bottom: 10px;*/
+    padding: 10px;
+    font-size: 20px;
+} 
+ footer{
+ 	position: relative;
+ 	width: 100%;
+    height:200px;
+  /*  color: white;*/
+    background: url(../../images/fon.jpg);
+    margin-bottom: 40px;
+    text-align: center;
+	font: 20pt italic;
+    /*text-decoration:none;
+    display:inline-block;*/
+    float: left;
+} 
+footer a{
+	color: white;
+}
+footer p{
+	color: white;
+}
+
+.table {
+	color: black;
+	background-color: white;
+	font-size: 100%; 
+	border-color: pink;
+	text-align: center; 
+	width: 100%;
+}
+ .descript{
+	position: relative;
+	width: 300px;
+	bottom: 330px;
+	left: 820px;
+	color: black;
+	font-style: italic;
+	font-size:25px; 
+} 
+.scale{
+	display: inline-block;
+	overflow: hidden; /*скрываем всё за контуром*/
+}
+.scale img {
+	transition: 2s;
+}
+.scale img:hover{
+	transform: scale(1.2);
+}
+.news{text-align: justify;
+
+}
+
+.news p {
+	padding: 30px 10px;
+
+}
+
+.news a,.st a{ color: #030250;
+
+}
+
+.news img{ border: 10px solid #ffffff;
+}
+
+
+
+.container {
+		right: 100px; 
+		width: 400px;
+		background-color: #b9b8f4;
+		margin: 40px auto;
+		margin-bottom: 40px;
+		padding: 20px;
+
+}
+
+form input: not([type="checkbox","radio"])
+	{	
+		width: 100%
+	} 
+
+form label {
+		display: inline-block;
+		width: 100%
+	}
+
+.rating_block {
+  width: 125px;
+  height: 25px;
+}
+.rating_block input[type="radio"] {
+  display: none;
+}
+.label_rating {
+  float: right;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../../images/rating.png) no-repeat 50% 0;
+  cursor: pointer;
+}
+/*Пишем правила смены положения background-а*/
+.rating_block .label_rating:hover, /*Правило для ховера на текущий лейбл*/
+.rating_block .label_rating:hover ~ .label_rating, /*Правило для всех следующих лейблов по DOM дереву*/
+.rating_block input[type="radio"]:checked ~ .label_rating /*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/
+{
+  background-position: 50% -25px;
+}
+/*.box {
+		border: 2px solid #ff0000; 
+		padding: 15px;
+		margin: 50px;
+	}*/
