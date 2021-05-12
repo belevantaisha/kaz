@@ -24,8 +24,8 @@ h4 {color: #986206;
 	text-align: center;
 	}
 .pic {
-	position: relative;
-	bottom: 240px;
+	position: absolute;
+	top: 40px;
 	left: 210px;
 }
 nav a{
@@ -51,6 +51,7 @@ nav{
 	text-align: center;
 }
  .sidebar{
+ 	height: 960px;
  	color: white;
  	display: inline-block;
  	float: left;
@@ -96,9 +97,9 @@ footer p{
 	width: 100%;
 }
  .descript{
-	position: relative;
+	position: absolute;
 	width: 300px;
-	bottom: 330px;
+	top: 150px;
 	left: 820px;
 	color: black;
 	font-style: italic;
@@ -174,8 +175,7 @@ form label {
 {
   background-position: 50% -25px;
 }
-/*.box {
-		border: 2px solid #ff0000; 
-		padding: 15px;
-		margin: 50px;
-	}*/
+ /* li{list-style: none;
+ 	background: url(../../images/1.png) no-repeat 50px 10px;
+ 	padding-left: 12px
+ }*/
